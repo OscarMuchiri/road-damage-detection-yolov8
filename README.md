@@ -1,6 +1,6 @@
 # Road Damage Detection using YOLOv8
 
-A computer vision system for detecting **road surface damage** using the YOLOv8 object detection architecture.
+A computer vision system for detecting **potholes in road-surface images** using the YOLOv8 object detection architecture.
 
 The project explores how deep learning can be used to automatically identify road defects from images, supporting faster road-condition assessment and infrastructure monitoring.
 
@@ -51,8 +51,16 @@ The trained YOLOv8 model achieved approximately:
 
 | Metric | Score |
 |---|---:|
-| mAP@50 | 0.805 |
-| mAP@50–95 | 0.527 |
+| mAP@50 | 0.8218 |
+| mAP@50–95 | 0.5346 |
+The final evaluation was performed on **133 validation images containing 348 annotated pothole instances**.
+
+Additional validation statistics:
+
+- Precision: **0.846**
+- Recall: **0.725**
+- mAP@50: **82.18%**
+- mAP@50–95: **53.46%**
 
 These results demonstrate the model's ability to detect road-surface damage across the validation dataset.
 
