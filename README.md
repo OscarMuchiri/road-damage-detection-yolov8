@@ -1,4 +1,7 @@
 # Road Damage Detection using YOLOv8
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://road-damage-detection-yolov8-5zpqzf4ayqnlnnhh5bvnf9.streamlit.app/)
+
+> **Live Demo:** Upload a road image and run the trained YOLOv8 model to detect visible potholes and view detection confidence scores.
 
 A computer vision system for detecting **potholes in road-surface images** using the YOLOv8 object detection architecture.
 
